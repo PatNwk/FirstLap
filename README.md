@@ -18,16 +18,6 @@ Surnommé **"le Tinder des pilotes"**, FirstLap simplifie la recherche de sponso
 
 ---
 
-## 🛠️ Technologies utilisées
-
-🔹 **Front-end** : HTML, CSS, JavaScript  
-🔹 **Back-end** : Node.js, Express  
-🔹 **Base de données** : MongoDB  
-🔹 **Autres outils** : Git, Trello, Figma (pour les maquettes UI/UX)  
-
----
-
-
 ## 💡 Retour d’expérience
 
 Ce projet m’a permis de développer des **compétences techniques en développement web** ainsi que des **compétences de travail en équipe**, 
