@@ -1,0 +1,6 @@
+1234,$2y$10$VCK2N5B8DGZCHuMnhaVtWeIWs/dJ8C0OthBS61CBoowAOz7HMbldW
+12345,$2y$10$k3og8k6JKXOno22gImVAFuyqRxuNidqf/f0FmtfaTBJmZRVOdUBqO
+123,$2y$10$mRkHO6uF1UZMZ7gg6lg//OangR.0SX1un.02tS2QoKsIIWorPQKRO
+blbl,$2y$10$wub4ws90A2g/2LPptRWiTeeHxxRNQq/XGpXTOdZkY12f2/aMnVZOm
+Ninwost,$2y$10$BPQXx3.LXIQjinGObJyYSeO5ZAKibT.xsUpnkOBkFOut92BV2xUbW,Winston,Pelletier,2001-10-17,,Français,
+UserTest,$2y$10$Zk2tx1Ro/BtIthEPMpWst.rkn.LeI2X/UHGdEKoEI7R6MESZaCntG,user,test,2001-10-17,,Français,lol

@@ -1,0 +1,159 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background: #EEE;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.top_bkground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0; /* Assurez-vous que l'image est en arrière-plan du texte */
+}
+
+.top{
+    padding: 15%;
+    position: relative;
+    z-index: 1;
+    display: block;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  
+  .top h1{
+    font-family: 'fontFirstLap', sans-serif;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+.top h2{
+    margin-top: 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 4vh;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+}
+
+
+.top a{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.top button{
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    background: rgba(255, 49, 49, 0.63);
+    border:0;
+    color: #fff;
+    font-size: 2vh;
+}
+
+main h2 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 4vh;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    color: #FF3131;
+}
+
+.pilotes, .sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.pilotes a {
+    position: relative;
+    display: block; /* Pour que le pseudo-élément ::after fonctionne correctement */
+}
+
+.pilotes .image-text {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    z-index: 1;
+    width: 100%; /* Prend toute la largeur de l'image */
+    height: 49%; /* S'étend jusqu'en bas */
+    transition: opacity 0.3s ease;
+    background-color: rgba(91, 90, 90, 0.8); /* Couleur de fond grise transparente */
+    padding: 10px; /* Espacement autour du texte */
+    color: white; /* Couleur du texte */
+}
+
+.pilotes a:hover .image-text {
+    opacity: 1;
+}
+
+
+@media (max-width: 600px) {
+    .pilotes {
+      flex-direction: column; /* Mettre en colonne */
+      align-items: center; /* Centrer les éléments sur l'axe transversal (maintenir le centrage) */
+    }
+}
+
+
+
+.sponsor{
+    position: relative;
+    width: 30%;
+    background-color: #D9D9D9;
+    overflow: hidden;
+}
+
+.sponsor a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.sponsor img {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+}
+
+.sponsor .image-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease;
+    background-color: rgba(128, 128, 128, 0.7);
+    padding: 10px;
+    color: white;
+}
+
+.sponsor a:hover .image-text {
+    opacity: 1;
+}

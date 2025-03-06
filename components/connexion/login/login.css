@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* General container styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px; 
+}
+
+/* Login container styles */
+.login-container {
+  font-family: 'Montserrat', sans-serif;
+  width: 500px;
+  padding: 2rem;
+  background-color: #fff; /* white background for the form */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* a subtle shadow */
+  border-radius: 8px; /* rounded corners */
+}
+
+.login-container h2 {
+  font-family: 'Montserrat', sans-serif;  
+  color: #FF3131; /* red color for headings */
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.login-container a {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;  
+  color: #5B5A5A;
+  border: #3498db 1px solid;
+}
+
+/* Form group styles */
+.form-group {
+  margin-bottom: 1rem; /* space between form groups */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: -5px; /* space between label and input */
+  color: #666; /* medium grey color for labels */
+}
+.form-group1 {
+  margin-bottom: 1rem; /* space between form groups */
+}
+.form-group1 label {
+  display: block;
+  margin-bottom: 4px; /* space between label and input */
+  color: #666; /* medium grey color for labels */
+}
+.form-group1 input {
+  font-family: 'Montserrat', sans-serif; 
+  width: 100%; /* full width of the container */
+  padding: 0.5rem; /* comfortable padding inside inputs */
+  border: 1px solid #ccc; /* border color for inputs */
+  border-radius: 4px; /* slightly rounded corners for inputs */
+}
+
+.form-group input {
+  font-family: 'Montserrat', sans-serif; 
+  width: 100%; /* full width of the container */
+  padding: 0.5rem; /* comfortable padding inside inputs */
+  border: 1px solid #ccc; /* border color for inputs */
+  border-radius: 4px; /* slightly rounded corners for inputs */
+}
+
+/* Button styles */
+.buttonloginshalasacassepas {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%; /* full width buttons */
+  padding: 0.75rem; /* taller buttons for better clickability */
+  margin-top: 0.75rem; /* space between buttons and form elements */
+  border: none; /* no border for buttons */
+  border-radius: 4px; /* match input border-radius */
+  background-color: #FF3131; /* a red color for primary action */
+  color: white; /* white text on the buttons */
+  cursor: pointer; /* pointer cursor on hover */
+}
+
+button[type="button"] {
+  color: #FF3131;
+  background-color: #ffffff; /* a different color for secondary actions */
+  border-radius: 4px;
+  border: 1px solid #EEEE;
+}
+
+button:hover {
+  opacity: 0.9; /* a slight visual feedback on hover */
+}
+
+.error, .registered {
+  color: red; /* error messages in red */
+  padding: 0.5rem 0; /* space around error messages */
+  text-align: center; /* center align error messages */
+}
+
+.registered {
+  color: green; /* success messages in green */
+}

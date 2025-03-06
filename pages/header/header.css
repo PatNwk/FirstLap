@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#burger-btn {
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a,
+#burger-nav a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+}
+
+nav a:hover,
+#burger-nav a:hover {
+  color: #2e2e2e;
+}
+
+#burger-nav img {
+  margin-top: 10%;
+  width: 150px;
+}
+
+#close-btn {
+  font-size: 30px;
+}
+
+#burger-nav {
+  display: none;
+}
+
+#burger-nav.show {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: -300px;
+  /* Start position outside the viewport */
+  background-color: #fff;
+  /* Adjust the background color as needed */
+  padding: 10px;
+  z-index: 1;
+  transition: left 0.5s ease;
+}
+
+#burger-nav a {
+  margin-bottom: 10px;
+}
+
+#burger-nav #bottomnav {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    position: relative;
+  }
+
+  header {
+    background-color: none;
+    box-shadow: none;
+    z-index: 0;
+  }
+
+  #burger-btn {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  #burger-btn img {
+    width: 30px;
+  }
+
+  #burger-nav.show {
+    left: 0;
+    /* Move to the left when the class is present */
+  }
+
+  nav {
+    display: none;
+  }
+
+  header nav.show {
+    display: block;
+  }
+}
+
+
+.container-profil {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.container-profil:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+img {
+  left: 0;
+}
+
+header .button {
+  position: absolute;
+  width: 50px;
+  right: 0;
+  margin-top: 10%;
+  margin-left: 1000px;
+  padding: 12px 48px;
+  opacity: 0;
+  transition: opacity .35s ease;
+  z-index: 9999;
+  color: black;
+  border: solid 2px #FF3131;
+  background-color: #FF3131;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.button a {
+  position: relative;
+  text-align: center;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.button-deconnexion {
+  border: solid 1px #FF3131;
+  background-color: #FF3131;
+  cursor: pointer;
+}
+
+.container-profil:hover .button {
+  width: 100%;
+  opacity: 1;
+}

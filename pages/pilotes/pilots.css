@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'fontFirstLap';
+    src: url('../../ressources/font/Fontspring-DEMO-nekst-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+  font-family: 'fontFirstLapBold';
+  src: url('../../ressources/font/Fontspring-DEMO-nekst-bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+  body {
+    font-family: 'fontFirstLap', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+  }
+
+
+.top{
+  background-color: #AAAA;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.top h1{
+  font-family: 'fontFirstLap', sans-serif;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bandeau{
+  background-color: #FF3131;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.bandeau button{
+  font-family: 'fontFirstLap', sans-serif;
+  border-radius: 2px;
+  color: #AAAAAA;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  margin-right: 2%;
+} 
+.button:hover {
+    background: #f5f5f5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pilotes{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2%;
+  margin-right: 3%;
+}
+
+.pilote h1{
+  font-family: 'fontFirstLapBold', sans-serif;
+  font-size: 3em;
+  color: #FF3131;
+  margin: 1%;
+  width: 100%;
+}
+
+.pilote h2{
+  font-family: 'fontFirstLap', sans-serif;
+  font-size: 2em;
+  margin: 1%;
+}

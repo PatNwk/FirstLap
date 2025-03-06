@@ -1,0 +1,30 @@
+
+.top{
+    background-color: #AAAA;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  
+  .top h1{
+    font-family: 'fontFirstLap', sans-serif;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+.text {
+    margin: 0 auto;
+    max-width: 80%; 
+    padding: 20px; 
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px; 
+    position: relative;
+}
+
+/* Style du paragraphe p */
+.text p {
+    font-size: 1em; 
+    color: #000000; 
+}

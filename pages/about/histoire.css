@@ -1,0 +1,109 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+.image {
+    position: relative; 
+}
+
+
+.image img {
+    display: block; 
+    width: 100%; 
+    height: auto; 
+}
+
+
+.text-overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.88); 
+    color: #fff; 
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px; 
+    max-width: 80%; 
+    text-align: center; 
+}
+.text-box p{
+    color: red;
+    font-size: 1.3em;
+    font-weight: bold; 
+    font-family: 'fontFirstLap', sans-serif;
+}
+
+.content {
+    display: flex;
+    align-items: center; 
+    padding: 20px; 
+}
+
+
+.text {
+    flex: 1; 
+    padding-right: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.image1 {
+    flex: 1; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image1 img {
+    width: 60%; 
+    height: auto; 
+}
+    
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.image1 {
+    flex: 1;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 img {
+    width: 60%;
+    height: auto;
+    display: block;
+    align-items: center;
+}
+
+.text1 {
+    flex: 1;
+}
+
+.text1 h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.text1 p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000000;
+}
+   
